@@ -1,6 +1,6 @@
 var VideoPlayer = ({video}) => {
 
-  console.log("VideoPlayer: currentVideo is ", video);
+  // console.log("VideoPlayer: currentVideo is ", video);
   var source = "https://www.youtube.com/embed/" +
     video.id.videoId + "?autoplay=1";
 

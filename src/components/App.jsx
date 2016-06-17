@@ -9,10 +9,8 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
-    console.log("Ding ding ding");
-    console.log("Dong", data);
-    //this.setState({currentVideo: video})
+  handleClick(video) {
+    this.setState({currentVideo: video})
   }
 
   render() {
