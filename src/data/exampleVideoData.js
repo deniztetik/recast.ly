@@ -1,5 +1,9 @@
 // This is an example response from the YouTube Search API
 // when searching with the query "react tutorial"
+
+// {snippit}
+// snippit.title, snippit.description, snippit.thumbs.url
+
 window.exampleVideoData = [
   {
     "kind": "youtube#searchResult",
