@@ -2,7 +2,7 @@
 var VideoList = ({data, onClick}) => (
   <div className="video-list media">
      {
-       exampleVideoData.map( (item, index) =>
+       data.map( (item, index) =>
          <VideoListEntry entry = {item} key = {index} onClick = {onClick}/>
        )
     }

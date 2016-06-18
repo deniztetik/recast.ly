@@ -1,7 +1,7 @@
-var Nav = ({onChange, handleSearchClick}) => (
+var Nav = ({onChange, appGlue}) => (
   <nav className="navbar">
     <div className="col-md-6 col-md-offset-3">
-      <Search onChange={onChange} onClick={handleSearchClick}/>
+      <Search onChange={onChange} appGlue={appGlue}/>
     </div>
   </nav>
 );
